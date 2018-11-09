@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { KnobModule } from '@xmlking/ngx-knob';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -10,6 +11,7 @@ import { KnobModule } from '@xmlking/ngx-knob';
   ],
   imports: [
     BrowserModule,
+    FlexLayoutModule.withConfig({ useColumnBasisZero: false }),
     KnobModule
   ],
   providers: [],
