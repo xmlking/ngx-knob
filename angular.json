@@ -163,5 +163,8 @@
       }
     }
   },
+  "cli": {
+    "packageManager": "yarn"
+  },
   "defaultProject": "ngx-knob"
 }

@@ -35,6 +35,13 @@ You can also use bower to install the component:
 $ npm install @xmlking/ngx-knob --save
 ```
 
+add following `resolutions` to `package.json`
+```json
+  "resolutions": {
+    "d3-selection": "1.3.0"
+  }
+```
+
 #### Usage
 
 ###### IMPORTING ANGULAR MODULE:
