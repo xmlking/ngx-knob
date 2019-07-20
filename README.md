@@ -1,11 +1,12 @@
 # ngx-knob
+
 Angular directive for Knob component using d3.js v4 without jQuery dependencies
 
 
 ![screenshot](https://raw.githubusercontent.com/xzegga/angular2-knob/master/assets/angular2-knob.png)
 
-Features
--------
+## Features
+
 - very easy to implement
 - without jQuery dependencies
 - powered by d3.js v4
@@ -15,27 +16,29 @@ Features
 - configurable scale
 - touch, click and drag events implemented
 
-#### Dependencies
+### Dependencies
 
 - Angular 6+
 - D3.js V4
 - @types/d3-selection@^1.1.0
 - lodash-es@4.17.10
 
-#### Browser Support
+### Browser Support
 
 - Chrome, Firefox, Safari, Opera, IE9+
 
-Get started
--------
+## Get started
 
 #### Installation
+
 You can also use bower to install the component:
+
 ```bash
-$ npm install @xmlking/ngx-knob --save
+npm install @xmlking/ngx-knob --save
 ```
 
 add following `resolutions` to `package.json`
+
 ```json
   "resolutions": {
     "d3-selection": "1.3.0"
@@ -45,6 +48,7 @@ add following `resolutions` to `package.json`
 #### Usage
 
 ###### IMPORTING ANGULAR MODULE:
+
 ```Angular
 import { KnobModule } from "@xmlking/ngx-knob";
 
@@ -57,12 +61,15 @@ import { KnobModule } from "@xmlking/ngx-knob";
 })
 
 ```
-###### HTML USE:
+
+###### HTML USE
+
 ```html
 <ngx-knob [value]="value" [options]="knOptions"></ngx-knob>
 ```
 
-###### CONFIGURING OPTIONS IN ANGULAR COMPONENT:
+###### CONFIGURING OPTIONS IN ANGULAR COMPONENT
+
 ```Angular
 import { Component, OnInit } from '@angular/core';
 import { KnobOptions } from "@xmlking/ngx-knob";
@@ -103,6 +110,7 @@ export class AppComponent{
 ```
 
 Options
+
 -------
 
 ###### You can pass these options to the initialize function to set a custom look and feel for the plugin.
@@ -136,10 +144,10 @@ Options
 | max              | integer      | 100                                                                                                   | Max value (end value), only integer                                                          |
 | dynamicOptions   | boolean      | false                                                                                                 | Dynamic change options (`true` or `false`)                                                   |
 
-
-### Developer 
+### Developer
 
 #### Setup
+
 ```bash
 # how to create lib project.
 ng new ngx-knob
@@ -148,6 +156,7 @@ ng generate component knob --project=knob --inline-style --inline-template --exp
 ```
 
 #### Build
+
 ```bash
 # bump version in `projects/knob/package.json`
 ng build knob --prod
@@ -155,11 +164,13 @@ ng build knob --prod
 ```
 
 #### Run
+
 ```bash
 ng serve
 ```
 
 #### Publish
+
 ```bash
 cd dist/knob
 npm publish --access public
