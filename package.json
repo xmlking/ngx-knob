@@ -38,7 +38,7 @@
     "@types/lodash-es": "^4.17.1",
     "@types/node": "^12.11.1",
     "codelyzer": "^5.1.2",
-    "core-js": "^3.1.4",
+    "core-js": "^3.6.4",
     "d3": "4.13.0",
     "d3-selection-multi": "1.0.1",
     "jasmine-core": "^3.5.0",
