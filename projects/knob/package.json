@@ -1,7 +1,7 @@
 {
   "name": "@xmlking/ngx-knob",
   "description": "ngx-knob",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "peerDependencies": {
     "@angular/core": ">=9.1.0",
     "d3": "4.13.0",
