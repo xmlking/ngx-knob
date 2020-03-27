@@ -1,9 +1,9 @@
 {
   "name": "@xmlking/ngx-knob",
   "description": "ngx-knob",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "peerDependencies": {
-    "@angular/core": ">=8.0.0",
+    "@angular/core": ">=9.0.0",
     "d3": "4.13.0",
     "d3-selection-multi": "1.0.1",
     "lodash-es": "^4.17.15"
