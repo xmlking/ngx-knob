@@ -36,7 +36,7 @@
     "@types/jasmine": "3.5.10",
     "@types/jasminewd2": "2.0.8",
     "@types/lodash-es": "4.17.3",
-    "@types/node": "12.12.31",
+    "@types/node": "12.12.34",
     "codelyzer": "5.2.2",
     "core-js": "3.6.4",
     "d3": "4.13.0",
