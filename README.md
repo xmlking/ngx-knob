@@ -1,5 +1,7 @@
 # ngx-knob
 
+[![npm](https://img.shields.io/npm/v/@xmlking/ngx-knob)](https://www.npmjs.com/package/@xmlking/ngx-knob)
+
 Angular directive for Knob component using d3.js v4 without jQuery dependencies
 
 
