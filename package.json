@@ -50,7 +50,7 @@
     "karma-jasmine-html-reporter": "1.5.3",
     "lodash-es": "4.17.15",
     "ng-packagr": "9.1.0",
-    "prettier": "2.0.2",
+    "prettier": "2.0.5",
     "protractor": "5.4.3",
     "rxjs": "6.5.5",
     "ts-node": "8.8.1",
