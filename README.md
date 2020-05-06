@@ -35,6 +35,10 @@ Angular directive for Knob component using d3.js v4 without jQuery dependencies
 
 You can also use bower to install the component:
 
+Note: from v1.0.2,  we are publishing to GitHub Packages https://github.com/xmlking/ngx-knob/packages/213430
+
+See [Configuring npm for use with GitHub Packages](https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages)
+
 ```bash
 npm install @xmlking/ngx-knob --save
 ```
@@ -173,7 +177,10 @@ ng serve
 
 #### Publish
 
+> we are publishing to GitHub Packages https://github.com/xmlking/ngx-knob/packages/213430
+
 ```bash
+cp README.md dist/knob
 cd dist/knob
 npm publish --access public
 ```

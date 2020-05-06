@@ -1,6 +1,7 @@
 import { ElementRef, OnInit, Input, Output, EventEmitter, OnChanges, Component } from '@angular/core';
 import * as d3 from 'd3';
 import 'd3-selection-multi';
+// https://medium.com/inside-formstack/friends-dont-let-friends-import-lodash-incorrectly-ac40ca9e3bd5
 import merge from 'lodash-es/merge';
 
 export interface KnobOptions {
