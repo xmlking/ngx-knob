@@ -46,7 +46,7 @@
     "karma": "5.0.5",
     "karma-chrome-launcher": "3.1.0",
     "karma-coverage-istanbul-reporter": "3.0.2",
-    "karma-jasmine": "3.1.1",
+    "karma-jasmine": "3.3.1",
     "karma-jasmine-html-reporter": "1.5.3",
     "lodash-es": "4.17.15",
     "ng-packagr": "9.1.3",
