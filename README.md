@@ -19,7 +19,7 @@ Angular directive for Knob component using d3.js v4 without jQuery dependencies
 
 ### Dependencies
 
-- Angular 9+
+- Angular 10+
 - D3.js V4
 - @types/d3-selection@^1.1.0
 - lodash-es@4.17.10
