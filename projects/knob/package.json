@@ -12,6 +12,6 @@
     "tslib": "2.0.3"
   },
   "resolutions": {
-    "d3-selection": "1.3.0"
+    "d3-selection": "2.0.0"
   }
 }
