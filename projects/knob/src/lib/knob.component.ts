@@ -246,6 +246,7 @@ export class KnobComponent implements OnInit, OnChanges {
       .attr('id', label)
       .attr('d', arc);
 
+    // eslint-disable-next-line guard-for-in
     for (const key in style) {
       elem.style(key, style[key]);
     }
@@ -444,6 +445,7 @@ export class KnobComponent implements OnInit, OnChanges {
           .data(data)
           .enter()
           .append('circle')
+          // @ts-ignore
           .attrs({
             r: function(d: { r: any }) {
               return d.r;
@@ -470,11 +472,13 @@ export class KnobComponent implements OnInit, OnChanges {
             y2: radius + Math.sin(angle) * (radius - height),
           };
         });
+
         svg
           .selectAll('line')
           .data(data)
           .enter()
           .append('line')
+          // @ts-ignore
           .attrs({
             x1: function(d: { x1: number }) {
               return d.x1;
@@ -583,13 +587,16 @@ export class KnobComponent implements OnInit, OnChanges {
 
     function dragInteraction() {
       that.inDrag = true;
+      // @ts-ignore
       const x = d3.event.x - that.options.size / 2;
+      // @ts-ignore
       const y = d3.event.y - that.options.size / 2;
       interaction(x, y, false);
     }
 
     function clickInteraction() {
       that.inDrag = false;
+      // @ts-ignore
       const coords = d3.mouse(this.parentNode);
       const x = coords[0] - that.options.size / 2;
       const y = coords[1] - that.options.size / 2;
@@ -619,6 +626,7 @@ export class KnobComponent implements OnInit, OnChanges {
       );
       if (that.value >= that.options.min && that.value <= that.options.max) {
         that.value =
+          // eslint-disable-next-line no-bitwise
           Math.round(~~((that.value < 0 ? -0.5 : 0.5) + that.value / that.options.step) * that.options.step * 100) /
           100;
         if (that.options.step < 1) {
@@ -673,6 +681,7 @@ export class KnobComponent implements OnInit, OnChanges {
         this.options.min,
       );
       this.value =
+        // eslint-disable-next-line no-bitwise
         Math.round(~~((newValue < 0 ? -0.5 : 0.5) + newValue / this.options.step) * this.options.step * 100) / 100;
       if (this.options.step < 1) {
         this.value = Number(this.value.toFixed(1));

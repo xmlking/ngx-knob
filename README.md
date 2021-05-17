@@ -164,8 +164,7 @@ ng generate component knob --project=knob --inline-style --inline-template --exp
 
 ```bash
 # bump version in `projects/knob/package.json`
-ng build knob --prod
-
+ng build knob
 ```
 
 #### Run
