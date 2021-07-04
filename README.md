@@ -180,5 +180,8 @@ ng serve
 ```bash
 cp README.md dist/knob
 cd dist/knob
+# publish to github registry
 npm publish --access public
+# publish to npm registry
+npm publish --access public --@xmlking:registry=https://registry.npmjs.org/
 ```
