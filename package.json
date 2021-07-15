@@ -22,7 +22,7 @@
     "@angular-eslint/schematics": "12.2.0",
     "@angular-eslint/template-parser": "12.2.0",
     "@angular/animations": "12.1.1",
-    "@angular/cdk": "12.1.1",
+    "@angular/cdk": "12.1.2",
     "@angular/cli": "12.1.1",
     "@angular/common": "12.1.1",
     "@angular/compiler": "12.1.1",
